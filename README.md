@@ -3,12 +3,12 @@
 
 ---
 
-## 1. Introduction to Physical Computing
+Introduction to Physical Computing
 **Physical Computing** is the field of building interactive systems that sense and respond to the analog world using a combination of software and hardware. Unlike traditional computing, which relies on screens and keyboards, physical computing uses sensors (to "feel" the environment) and actuators (to "act" upon it).
 
 ---
 
-## 2. Project Development and Experimentation
+Project Development and Experimentation
 
 ### Experiment 1: Car Sensor Automatic Gate (Tinkercad)
 This experiment simulates an automated parking garage or driveway entry system.
@@ -23,6 +23,4 @@ The system uses an **Ultrasonic Distance Sensor** to detect an approaching vehic
 * Breadboard
 * Jumper Wires 9 (male to male)
 
-#### **Technical Documentation**
-**Circuit Diagram:**
-![Circuit Diagram](./images/experiment1_circuit.png)
+---
