@@ -10,7 +10,7 @@ Introduction to Physical Computing
 
 Project Development and Experimentation
 
-### Experiment 1: Car Sensor Automatic Gate (Tinkercad)
+### Experiment 1: Car Sensor Automatic Gate
 This experiment simulates an automated parking garage or driveway entry system.
 
 #### **Description**
@@ -24,3 +24,4 @@ The system uses an **Ultrasonic Distance Sensor** to detect an approaching vehic
 * Jumper Wires 9 (male to male)
 
 ---
+coming soon
