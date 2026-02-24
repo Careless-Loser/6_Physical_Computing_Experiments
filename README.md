@@ -1,5 +1,9 @@
 # 6 Physical Computing Experiments - Bath Spa University
-**Students:** Ifrah Imtiaz  
+**Students Collaborated:** 
+Ifrah Imtiaz - 523894
+Zahra Muhmmad Imtiaz - 521596
+Umar Asif - 525350
+Maryam Ashraf - 639855
 
 ---
 
