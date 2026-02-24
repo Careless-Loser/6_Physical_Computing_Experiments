@@ -17,7 +17,7 @@ Project Development and Experimentation
 ### Experiment 1: Car Sensor Automatic Gate
 This experiment simulates an automated parking garage or driveway entry system.
 ---
-### Experiment 2: Alphanumeric LCD Display (LCD1602)
+### Experiment 2: BSU LCD Display (LCD1602)
 This experiment demonstrates how to wire up and initialize an LCD screen to display text and dynamic data.
 ---
 coming soon
