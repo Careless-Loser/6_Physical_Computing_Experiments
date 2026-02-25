@@ -10,6 +10,4 @@ The system uses a 16x2 Alphanumeric LCD Display to show characters on the screen
 ### Components Used
 * 1x Elegoo Uno R3
 * 1x LCD1602 Module
-* 1x 10k Potentiometer
-* 1x 830 tie-points Breadboard
 * 16x M-M wires (Male to Male jumper wires)
