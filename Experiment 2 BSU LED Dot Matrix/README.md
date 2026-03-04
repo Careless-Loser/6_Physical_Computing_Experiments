@@ -9,5 +9,5 @@ The system uses a 16x2 Alphanumeric LCD Display to show characters on the screen
 
 ### Components Used
 * 1x Elegoo Uno R3
-* 1x LCD1602 Module
-* 16x M-M wires (Male to Male jumper wires)
+* 1x Max7219 module 
+* 5x F-M wires (Female to Male DuPont wires)
