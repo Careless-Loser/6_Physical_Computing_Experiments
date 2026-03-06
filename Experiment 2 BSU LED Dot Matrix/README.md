@@ -1,11 +1,11 @@
-# Experiment 2: Alphanumeric LCD Display (LCD1602)
+# Experiment 2: BSU LED Dot Matrix Control
 
-This experiment demonstrates how to wire up and initialize an LCD screen to display text and dynamic data.
+This experiment demonstrates how to interface with a MAX7219 LED driver to control an 8x8 Dot Matrix display using minimal pins.
 
 ### Description
-The system uses a 16x2 Alphanumeric LCD Display to show characters on the screen. The display is wired to the Arduino's digital pins to receive data and instructions, while a 10k Potentiometer is used to manually adjust the screen's contrast. In this setup, the display outputs a static "Hello, World!" message on the top row and a live timer counting the seconds since the program started on the bottom row. 
+The MAX7219 is a serial input/output common-cathode display driver that allows an Arduino to control all 64 individual LEDs on the matrix using only 3 data pins. This is achieved through a serial interface, making it highly efficient for projects requiring visual feedback without exhausting the Arduino's digital I/O.
 
-
+In this project, we use the `LedControl` library to display custom-defined characters. The code is programmed to cycle through characters by defining their bit patterns in a byte array and rendering them row by row.
 
 ### Components Used
 * 1x Elegoo Uno R3
