@@ -1,10 +1,10 @@
-# 8 Physical COmputing Experiments
+# 6 Physical COmputing Experiments
 
 Welcome to this Physical Computing project repository! This collection of Arduino experiments serves as the practical foundation for my broader assessment and digital portfolio. It contains code, wiring guides, and documentation for eight distinct hardware experiments exploring sensors, actuators, and digital logic using the Arduino Uno R3.
 
 ## 🔗 Project Links
 * **Google Drive:** [Project Folder](https://drive.google.com/drive/folders/1V7OZR1d_17ikVOQnm-Gxx7CaN_fp-wWu?usp=drive_link)
-* **GitHub Repository:** [8_Physical_Computing_Experiments](https://github.com/Careless-Loser/8_Physical_Computing_Experiments.git)
+* **GitHub Repository:** [6_Physical_Computing_Experiments](https://github.com/Careless-Loser/8_Physical_Computing_Experiments.git)
 * **YouTube Playlist:** [Full Experiment Playlist](https://www.youtube.com/playlist?list=PLXSlNqwzq_K5HqcufmH5nnDKOp1EN07ac)
 
 ## 📂 Repository Structure & Video Demonstrations
@@ -29,14 +29,9 @@ This repository is organized into individual folders for each experiment, along 
 * **Experiment 6: Passive Buzzer**
   * Uses PWM signals to vibrate the air at specific frequencies, playing an eight-note musical scale.
   * 🎥 [Watch Video Demonstration](https://youtu.be/Q3k1cBI2HFo)
-* **Experiment 7: Water Level Detection Sensor Module**
-  * Measures the depth of water by reading variable analog electrical signals from a pectinate PCB amplifying circuit.
-  * 🎥 [Watch Video Demonstration](https://youtu.be/a-Y60IFRKZo)
-* **Experiment 8: DHT11 Temperature and Humidity Sensor**
-  * Reads and tracks ambient environmental data (temperature and air humidity) using a digital sensor.
-  * 🎥 [Watch Video Demonstration](https://youtu.be/VwKs1Pp-lpw )
+
 * **libraries/**
-  * Contains necessary third-party Arduino libraries required to run specific modules (such as the DHT11 sensor).
+  * Contains necessary third-party Arduino libraries required to run specific modules.
 
 ## 🛠️ General Hardware Requirements
 
@@ -49,7 +44,7 @@ While each experiment has specific component needs outlined in its respective fo
 ## 🚀 How to Use This Repository
 
 1.  **Clone or Download:** Download this repository to your local machine.
-2.  **Install Libraries:** Before running the code for sensors like the DHT11, copy the contents of the `libraries/` folder into your local Arduino IDE libraries directory (usually located at `Documents/Arduino/libraries`).
+2.  **Install Libraries:** Before running the code for sensors copy the contents of the `libraries/` folder into your local Arduino IDE libraries directory (usually located at `Documents/Arduino/libraries`).
 3.  **Navigate:** Open the folder for the specific experiment you wish to run.
 4.  **Read the Docs:** Check the individual `README.md` inside each experiment folder for exact wiring instructions and component lists.
 5.  **Upload:** Open the `.ino` file in the Arduino IDE, select your board and port, and click "Upload".
