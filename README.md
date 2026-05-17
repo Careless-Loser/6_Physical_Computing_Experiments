@@ -1,10 +1,11 @@
-# 6 Physical COmputing Experiments
+# 6 Physical Computing Experiments
 
 Welcome to this Physical Computing project repository! This collection of Arduino experiments serves as the practical foundation for my broader assessment and digital portfolio. It contains code, wiring guides, and documentation for eight distinct hardware experiments exploring sensors, actuators, and digital logic using the Arduino Uno R3.
 
 ## 🔗 Project Links
 * **Google Drive:** [Project Folder](https://drive.google.com/drive/folders/1V7OZR1d_17ikVOQnm-Gxx7CaN_fp-wWu?usp=drive_link)
-* **GitHub Repository:** [6_Physical_Computing_Experiments](https://github.com/Careless-Loser/8_Physical_Computing_Experiments.git)
+* **GitHub Repository:** [6_Physical_Computing_Experiments](https://github.com/Careless-Loser/6_Physical_Computing_Experiments.git 
+)
 * **YouTube Playlist:** [Full Experiment Playlist](https://www.youtube.com/playlist?list=PLXSlNqwzq_K5HqcufmH5nnDKOp1EN07ac)
 
 ## 📂 Repository Structure & Video Demonstrations
@@ -29,6 +30,13 @@ This repository is organized into individual folders for each experiment, along 
 * **Experiment 6: Passive Buzzer**
   * Uses PWM signals to vibrate the air at specific frequencies, playing an eight-note musical scale.
   * 🎥 [Watch Video Demonstration](https://youtu.be/Q3k1cBI2HFo)
+ 
+* **Final Project: Distance Measurement Scanning Detector**
+  * The wiring utilizes the V5 Expanding Board for easier power distribution. Based on the diagram:
+     Servo: Signal (Orange) to Digital Pin 3, Power (Red) to 5V, Ground (Brown) to GND.
+     Ultrasound Module: Trig to Digital Pin 6, Echo to Digital Pin 5, VCC to 5V, GND to GND.
+     1.8" TFT LCD: Connected via SPI. CS to Pin 10, RESET to Pin 8, A0 (DC) to Pin 9, SDA (MOSI) to Pin 11, SCK to Pin 13. LED and VCC to 5V, GND to GND
+  * 🎥 [Watch Video Final Outcome](https://youtu.be/gCH_I8y4LIE)
 
 * **libraries/**
   * Contains necessary third-party Arduino libraries required to run specific modules.
